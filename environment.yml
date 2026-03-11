@@ -1,0 +1,17 @@
+name: pointnet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.2.6
+  - torch=2.5.1=py3.11_cuda11.8_cudnn8_0
+  - torchvision=0.20.1=py3.11_cuda11.8_cudnn8_0
+  - torchaudio=2.5.1=py3.11_cuda11.8
+  - tqdm=4.67.1
+  - pillow=12.0.0
+  - matplotlib=3.10.8
+  - pandas=2.3.3
+  - scipy=1.16.3
+  - open3d=0.19.0
+  - opencv-python=4.12.0.88
